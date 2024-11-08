@@ -35,6 +35,27 @@ body{
     background-color: #000;
     border: 1px solid white;
 }
+.box-heading{
+    font-size: 40px;
+    font-weight: 900;
+
+}
+.des-primary{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.65);
+    font-weight: 400;
+}
+.rounded{
+    width: 40px;
+    height: 40px;
+    background: #E6533C;
+    border-radius: 50%;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
 /* header section styles starts here  */
 header{
@@ -50,6 +71,7 @@ nav{
     align-items: center;
     padding-top: 40px;
     padding-left: 15px;
+    padding-right: 15px;
 }
 nav h1{
     font-size: 2.2rem;
@@ -70,6 +92,10 @@ nav ul {
     padding: 10px 18px;
     border-radius: 25px;
 }
+.hamburger{
+    display: none;
+    visibility: hidden;
+}
 .banner{
     padding-left: 15px;
     width: 1440px;
@@ -78,12 +104,15 @@ nav ul {
     align-items: center;
     justify-content: space-between;
 }
+.banner-photo{
+    position: relative;
+}
 .banner-text{
     font-size: 4.8rem;
     font-weight: 900;
 }
 .banner-des{
-    font-size: 1rem;
+    font-size: 13px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.50);
     letter-spacing: 0.5px;
@@ -94,29 +123,57 @@ nav ul {
     display: flex;
     gap: 10px;
 }
+.box{
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
+    width: 140px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.box-1{
+    position: absolute;
+    right: -70px;
+    top: 130px;
+}
+.box-2{
+    position: absolute;
+    bottom: 60px;
+    left: -110px;
+}
 
 
 @media screen and (max-width: 576px){
     header{
         width: auto;
-        border: 1px solid tomato;
     }
     nav{
         width: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     nav ul{
         visibility: hidden;
         display: none;
-        border: 1px solid green;
+    }
+    .hamburger{
+        visibility: visible; 
+        display: block;
     }
     .banner{
         width: auto;
         flex-direction: column;
-        border: 1px solid yellow;
         gap: 20px;
         /* visibility: hidden; */
     }
-    .fluid-img{
-        border: 1px solid red;
+    .box-1{
+        right: -50px;
     }
+    .box-2{
+        left: -68px;
+    }
+
 }
