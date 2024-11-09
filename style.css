@@ -68,6 +68,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.text-center{
+    text-align: center;
+}
 
 
 /* header section styles starts here  */
@@ -225,7 +228,6 @@ background-image: url("./images/image\ 5.png");
 }
 /* meet our team styles here  */
 .meet-our-team{
-    text-align: center;
     width: 1440px;
     margin: 0 auto;
     margin-top: 100px;
@@ -280,6 +282,10 @@ background-image: url("./images/image\ 5.png");
     grid-column: 9/ span 4;
     grid-row: 2/span 1;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url('./images/trainer6.png') lightgray 50% / cover no-repeat;
+}
+.member-text{
+    margin-top: 240px;
+    margin-left: 20px;
 }
 @media screen and (max-width: 576px){
     header{
