@@ -424,10 +424,12 @@ footer{
     }
     /* footer styles here  */
     footer{
+        width: auto;
         height: auto;
         padding-left: 20px;
     }
     .footer-container{
         flex-direction: column;
+        width: auto;
     }
 }
