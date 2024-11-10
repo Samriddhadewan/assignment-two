@@ -71,6 +71,12 @@ body{
 .text-center{
     text-align: center;
 }
+.mr-12{
+    margin-right: 12px;
+}
+.mt-12{
+    margin-top: 12px;
+}
 
 
 /* header section styles starts here  */
@@ -226,6 +232,72 @@ background-image: url("./images/image\ 5.png");
     background-size: cover;
     border-radius: 30px;
 }
+/* bmi calculator chart starts form here  */
+    .bmi-primary-text{
+        font-size: 28px;
+        font-weight: 900;
+
+    }
+    .bmi{
+        background: #222;
+        margin-top: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .bmi-container{
+        width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .bmi-table{
+        margin-top: 50px;
+    }
+    table, tr, td, th{
+        border: 1px solid rgba(255, 255, 255, 0.10);
+        border-collapse: collapse;
+        padding: 15px 20px;   
+    }
+    td{
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.65);
+        font-weight: 400;
+    }
+    form{
+        margin-top: 34px;
+        margin-bottom: 34px;
+        
+    }
+    input{
+        width: 280px;   
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background: rgba(255, 255, 255, 0.10);
+        border: none;
+        padding-left: 12px;
+        color: rgba(255, 255, 255, 0.60);
+        border-radius: 8px;
+    }
+    #dropdown-1{
+        width: 293px;
+        border-radius: 8px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background: rgba(255, 255, 255, 0.10);
+        border: none;
+        color: rgba(255, 255, 255, 0.60);
+        
+    }
+    #dropdown-2{
+        border: none;
+        width: 603px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background: rgba(255, 255, 255, 0.10);
+        color: rgba(255, 255, 255, 0.60);
+        border-radius: 8px;
+    }
+
 /* meet our team styles here  */
 .meet-our-team{
     width: 1440px;
@@ -301,6 +373,7 @@ footer{
     padding-top: 60px;
     padding-bottom: 70px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.10);
+    gap: 20px;
 }
 .footer-logo{
     font-size: 4rem;
@@ -392,6 +465,8 @@ footer{
     /* trainer section grid media styles here  */
     .meet-our-team{
         width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .team-members{
         height: auto;
@@ -422,11 +497,36 @@ footer{
         grid-column: 1/span 1;
         grid-row: 6/span 1;
     }
+    /* bmi calculator section here */
+    .bmi{
+        width: auto;
+        padding-left: 10px;
+    }
+    .bmi-container{
+        width: auto;
+        flex-direction: column;
+        gap: 30px;
+    }
+    input{
+        width: 170px;   
+
+    }
+    #dropdown-1{
+        width: 183px;
+
+        
+    }
+    #dropdown-2{
+        width: 382px;
+
+    }
+
     /* footer styles here  */
     footer{
         width: auto;
         height: auto;
         padding-left: 20px;
+        padding-right: 20px;
     }
     .footer-container{
         flex-direction: column;
