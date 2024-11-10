@@ -287,6 +287,48 @@ background-image: url("./images/image\ 5.png");
     margin-top: 240px;
     margin-left: 20px;
 }
+
+footer{
+    background: #222;
+    height: 40vh;
+    margin-top: 100px;
+}
+.footer-container{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.10);
+}
+.footer-logo{
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: 800;
+    color: #E6533C;
+}
+.footer-text{
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.footer-p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.50);
+}
+.credits{
+    text-align: center;
+    margin-top: 20px ;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.50);
+
+}
 @media screen and (max-width: 576px){
     header{
         width: auto;
